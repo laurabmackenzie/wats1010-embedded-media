@@ -4,7 +4,109 @@
  *
  * Site Styles
  *****************************************************************************/
-
- html {
-     color: green;
+html {
+  padding: 0;
+}
+body {
+  margin: 100px;
+}
+ header {
+   margin: -100px -100px 0 -100px;
+   background-image: url('../img/monkaa_title.jpg');
+   min-height: 400px;
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: cover;
+}
+h1 {
+  font-size:40px;
+  color:darkblue;
+  margin: 0;
+}
+header p {
+  color:darkblue;
+  margin-top:0;
+}
+h2 {
+  padding:1rem;
+  color:darkblue;
+}
+ul.social-links li {
+  list-style-type:none;
+}
+h3 {
+  color:darkgreen;
+}
+nav ul li a {
+color:darkgreen
+}
+#social {
+  background: green;
+  position: absolute;
+  top: 50px;
+  right: 0;
+  width: 25px;
+  transition: 2s width;
+}
+#social:hover {
+  width: 250px;
+}
+social ul {
+  list-style-type:none;
+  padding: 0;
  }
+social li {
+  padding: 0;
+  margin: 0;
+}
+video {
+  width:80%;
+}
+section#watch a:link {
+    background-color: darkgray;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+section#listen a:link {
+    background-color: darkgray;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+section p {
+  font-style:italic;
+  padding:1rem;
+}
+p.lead {
+  border-style:solid;
+  border-width:medium;
+  font-weight:bold;
+  font-size:20px;
+  font-style:normal;
+}
+img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    width: 180px;
+}
+ul.weybec-people li {
+  list-style-type:none;
+}
+
+nav li {
+  display:inline;
+  padding:4rem;
+  font-size:25px;
+}
+
+footer {
+  padding: 5rem;
+}
+footer nav {
+  margin-top: 50px;
+}
